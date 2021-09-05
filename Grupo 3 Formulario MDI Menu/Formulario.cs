@@ -85,5 +85,19 @@ namespace Grupo_3_Formulario_MDI_Menu
             f.Show();
 
         }
+
+        private void panConAjoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pan_ajo f = new pan_ajo();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void nuditosDeAjoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Nuditos_ajo f = new Nuditos_ajo();
+            f.MdiParent = this;
+            f.Show();
+        }
     }
 }

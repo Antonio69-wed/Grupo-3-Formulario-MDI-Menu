@@ -194,14 +194,16 @@ namespace Grupo_3_Formulario_MDI_Menu
             // panConAjoToolStripMenuItem
             // 
             this.panConAjoToolStripMenuItem.Name = "panConAjoToolStripMenuItem";
-            this.panConAjoToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.panConAjoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.panConAjoToolStripMenuItem.Text = "Pan con Ajo";
+            this.panConAjoToolStripMenuItem.Click += new System.EventHandler(this.panConAjoToolStripMenuItem_Click);
             // 
             // nuditosDeAjoToolStripMenuItem
             // 
             this.nuditosDeAjoToolStripMenuItem.Name = "nuditosDeAjoToolStripMenuItem";
-            this.nuditosDeAjoToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.nuditosDeAjoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.nuditosDeAjoToolStripMenuItem.Text = "Nuditos De Ajo";
+            this.nuditosDeAjoToolStripMenuItem.Click += new System.EventHandler(this.nuditosDeAjoToolStripMenuItem_Click);
             // 
             // inventariosToolStripMenuItem
             // 
@@ -215,7 +217,7 @@ namespace Grupo_3_Formulario_MDI_Menu
             // agregregarOrdenToolStripMenuItem
             // 
             this.agregregarOrdenToolStripMenuItem.Name = "agregregarOrdenToolStripMenuItem";
-            this.agregregarOrdenToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.agregregarOrdenToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.agregregarOrdenToolStripMenuItem.Text = "Agregregar orden ";
             // 
             // ayudaToolStripMenuItem
