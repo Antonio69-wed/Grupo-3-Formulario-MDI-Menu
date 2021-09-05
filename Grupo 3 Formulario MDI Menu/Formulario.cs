@@ -99,5 +99,26 @@ namespace Grupo_3_Formulario_MDI_Menu
             f.MdiParent = this;
             f.Show();
         }
+
+        private void cocaColaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            coca f = new coca();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void pepsiColaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pepsi f = new pepsi();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void upToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            soda_verde f = new soda_verde();
+            f.MdiParent = this;
+            f.Show();
+        }
     }
 }

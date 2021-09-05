@@ -148,20 +148,23 @@ namespace Grupo_3_Formulario_MDI_Menu
             // cocaColaToolStripMenuItem
             // 
             this.cocaColaToolStripMenuItem.Name = "cocaColaToolStripMenuItem";
-            this.cocaColaToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.cocaColaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cocaColaToolStripMenuItem.Text = "Coca Cola";
+            this.cocaColaToolStripMenuItem.Click += new System.EventHandler(this.cocaColaToolStripMenuItem_Click);
             // 
             // pepsiColaToolStripMenuItem
             // 
             this.pepsiColaToolStripMenuItem.Name = "pepsiColaToolStripMenuItem";
-            this.pepsiColaToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.pepsiColaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pepsiColaToolStripMenuItem.Text = "Pepsi Cola";
+            this.pepsiColaToolStripMenuItem.Click += new System.EventHandler(this.pepsiColaToolStripMenuItem_Click);
             // 
             // upToolStripMenuItem
             // 
             this.upToolStripMenuItem.Name = "upToolStripMenuItem";
-            this.upToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.upToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.upToolStripMenuItem.Text = "7up";
+            this.upToolStripMenuItem.Click += new System.EventHandler(this.upToolStripMenuItem_Click);
             // 
             // mirindaToolStripMenuItem
             // 
